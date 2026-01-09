@@ -13,6 +13,7 @@
 !/processados/
 !/processados/**
 
+
 # 4. BLOQUEIO ESPECÍFICO DENTRO DA PASTA2
 
 /data/processados/bilheteria_diaria_tratada.csv
