@@ -1,0 +1,21 @@
+# Ignora todos os arquivos dentro de subpastas
+/*/*
+
+# Mas permite que o Git veja os arquivos .gitkeep (para manter a pasta viva)
+!/**/.gitkeep
+
+# Permite arquivos da raiz (como o seu arq1.txt)
+!/**/.gitkeep
+!/*.*
+!.gitignore
+
+# 3. EXCEÇÃO PARA A PASTA2 (Permite a pasta e tudo dentro dela)
+!/processados/
+!/processados/**
+
+# 4. BLOQUEIO ESPECÍFICO DENTRO DA PASTA2
+
+/data/processados/bilheteria_diaria_tratada.csv
+
+Bilheteria_Cinema_Brasil.pbix
+
