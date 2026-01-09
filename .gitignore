@@ -10,8 +10,9 @@
 !.gitignore
 
 # 3. EXCEÇÃO PARA A PASTA2 (Permite a pasta e tudo dentro dela)
-!/processados/
-!/processados/**
+!data/
+# !/processados/
+# !/processados/**
 
 
 # 4. BLOQUEIO ESPECÍFICO DENTRO DA PASTA2
