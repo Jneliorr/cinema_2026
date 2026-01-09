@@ -1,23 +1,27 @@
-# Ignora todos os arquivos dentro de subpastas
-/*/*
+# # Ignora todos os arquivos dentro de subpastas
+# /*/*
 
-# Mas permite que o Git veja os arquivos .gitkeep (para manter a pasta viva)
-!/**/.gitkeep
+# # Mas permite que o Git veja os arquivos .gitkeep (para manter a pasta viva)
+# !/**/.gitkeep
 
-# Permite arquivos da raiz (como o seu arq1.txt)
-!/**/.gitkeep
-!/*.*
-!.gitignore
+# # Permite arquivos da raiz (como o seu arq1.txt)
+# !/**/.gitkeep
+# !/*.*
+# !.gitignore
 
-# 3. EXCEÇÃO PARA A PASTA2 (Permite a pasta e tudo dentro dela)
-!data/
-# !/processados/
-# !/processados/**
+# # 3. EXCEÇÃO PARA A PASTA2 (Permite a pasta e tudo dentro dela)
+# !data/
+# # !/processados/
+# # !/processados/**
 
 
 # 4. BLOQUEIO ESPECÍFICO DENTRO DA PASTA2
 
-/data/processados/bilheteria_diaria_tratada.csv
-
+# /data/processados/bilheteria_diaria_tratada.csv
+data/processados/*
+data/raw/unzip/bilheteria-diaria-obras-por-exibidoras-csv/* 
+data/raw/unzip/distribuidoras/* 
+data/raw/unzip/salas-de-exibicao/* 
+data/raw/zip/*
 Bilheteria_Cinema_Brasil.pbix
 
